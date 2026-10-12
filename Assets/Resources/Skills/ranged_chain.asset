@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21040207be2563b41b414839fd60cef9, type: 3}
+  m_Name: ranged_chain
+  m_EditorClassIdentifier: 
+  id: 3
+  shield: 0
+  displayName: "\u8FDE\u9501\u8282\u70B9"
+  icon: {fileID: 21300000, guid: 010170d4bb80bee40babebd5b68b2a4d, type: 3}
+  description: "\u547D\u4E2D\u8FDE\u63A5 270 \u8303\u56F4\u5185\u53E6\u4E00\u654C\u4EBA\n\u989D\u5916\u9020\u6210
+    16 \u70B9\u4F24\u5BB3\n\u4F20\u9012\u707C\u70E7/\u51B0\u971C\uFF0C\u4E0D\u9012\u5F52\u5F39\u5C04"
+  requiredMask: 0
+  values: []

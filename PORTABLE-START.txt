@@ -1,0 +1,35 @@
+UnityPortfolio 工程迁移入口
+
+2026-10-10 追加验证：已实际构建 Windows x64 游戏，并从游戏压缩包解压后通过远程、近战两种角色的独立启动检查。
+直接玩游戏请使用 RuinsPortfolio-Windows-Ready.zip，完整解压后启动 RuinsPortfolio.exe，不需要 Unity。
+本目录仍是供继续开发和学习的源工程。详情见 Docs/独立运行验证记录.txt。
+
+1. 这是可编辑的 Unity 工程，不是双击即可运行的游戏安装包。
+2. 推荐安装与 ProjectSettings/ProjectVersion.txt 一致的 Unity 2022.3.62f2c1。
+   本机目录名虽然没有 c1 后缀，实际编辑器版本包含 c1。不要只按目录名判断版本。
+   其他补丁版本、全球版编辑器、macOS/Linux、移动端和 WebGL 尚未实机验证。
+3. 在 Unity Hub 中添加本目录，等待首次导入；打开 Assets/Scenes/Ruins.unity 后点击 Play。
+   使用 WASD、鼠标左右键、Space、E、Esc。当前是桌面键鼠操作，没有触屏或手柄适配。
+4. 工程自带美术、中文字体和配置资产，不需要下载目录中的原始图片、旧网页 demo、Node 或 Python。
+   Unity 安装、许可登录和首次包解析可能需要网络；不要把“游戏无联网代码”理解为首次安装离线保证。
+5. Assets 必须连同所有 .meta 拷贝；Packages 和 ProjectSettings 也必须保留。
+   不需要旧 Library、Temp、Logs、Obj、Build、Builds、UserSettings 或历史截图。
+
+Windows 回归测试
+先关闭这个工程的 Unity 窗口，其他工程不必关闭。
+在工程根目录打开 PowerShell，按目标电脑实际路径替换 UnityPath：
+  .\Run-Tests.ps1 -Suite Rules -UnityPath "D:\Unity\Editor\Unity.exe"
+  .\Run-Tests.ps1 -Suite Gameplay -UnityPath "D:\Unity\Editor\Unity.exe"
+也可先设置 UNITY_EDITOR_PATH 环境变量，然后省略 UnityPath。
+不要全局关闭 PowerShell 执行策略；若被组织策略限制，请按组织规则运行。
+Gameplay 测试需要图形设备，会创建检查场景/默认配置及截图，建议在工程副本运行。
+  .\Tools\Test-Portability.ps1
+此命令只做静态检查，不启动 Unity，也不能证明所有设备均可运行。
+
+重新导出
+先保存场景并退出 Play Mode，使用一个尚不存在的目标目录：
+  .\Tools\Export-Project.ps1 -Destination "D:\Transfer\UnityPortfolio" -Zip
+脚本只复制必要目录，并附带 SHA256 文件清单；不会覆盖已有目录。
+
+学习指南和技术栈说明位于 Docs。先读学习指南第 1 章，再按章节中的相对路径查找代码。
+其他设备验收仍需检查中文显示、角色切换、三关流程、输入焦点、音效、分辨率和帧率。

@@ -1,0 +1,58 @@
+作品集配置与架构说明（2026-10-10）
+
+一、在哪里调整
+1. Assets/Resources/Skills/：18 个 SkillDefinition 资产，两名角色各 9 个。
+   displayName / icon / description：技能名称、图标和说明。图标为直接资源引用。
+   id / shield：稳定编号与角色，不要随意修改；它们不是技能的自由排序号。
+   requiredMask：前置条件位掩码。例如依赖槽位 1 填 2，依赖槽位 0 和 3 填 9。
+   values：当前仅接入远程穿透数、多重弹数量和伤害、伤害倍率、移速倍率、冲刺冷却倍率。
+   未接入的复杂效果请不要往 values 中添加：验证器会拒绝无消费者的参数。
+   对应描述使用 {ProjectileCount} 等占位符，与已配置的参数同步。
+   技能编号仍是固定协议；这不是“创建一个资产就能自动实现新技能”的通用技能编辑器。
+
+2. Assets/Resources/AttackTimeline.asset：基础攻击时间与动作反馈。
+   rangedCooldown：普通远程攻击间隔；aimEnd/fireEnd/recoverEnd：动画阶段结束时间。
+   rangedWindow：保持持杖攻击姿势的时间窗口。
+   meleeDuration/fastMeleeDuration：普通、熟练挥击时的动作时长。
+   meleeCooldown/fastMeleeCooldown：对应攻击冷却。
+   hitPhase/recoveryPhase：0～1 的归一化命中与收招节点，必须按顺序排列。
+   stepDistance/bobHeight/blendSpeed：步距、身体起伏、起停过渡。
+   recoilDistance/windupPull/followThrough：后坐力、蓄力后移和挥击跟进。
+   这些偏移只影响渲染，不会挪动碰撞体、敌人寻路目标或深度排序坐标。
+   重击蓄力、冲刺、死亡动画时序目前不由此资产统一管理。
+
+建议退出 Play Mode 后调整，重新进入验证；不要依赖运行中修改资产的即时刷新。
+修改盾卫挥击冷却后，同时检查 shield_swift 的文字说明（该项目前不是时间轴占位符）。
+资产缺失时可运行 Portfolio > Configuration > Create Missing Definitions。
+创建工具只补缺失资产，不覆盖现有调参；不要通过重命名/删除资产来重排技能。
+
+二、数据流
+SkillDefinition -> SkillCatalog -> UI 名称/图标/说明、升级抽选前置条件
+                              -> ISkillParameters -> SkillLoadout 弹丸和移动数值
+AttackTimeline -> 攻击冷却、命中节点、动画选帧
+               -> HeroMotionPresenter -> 视觉位移 -> SpriteRenderer
+SkillLoadout 的每局 Mask 与资产定义分开；资产不保存玩家这局已获得的技能。
+SynergyRules 保存组合关系；二次伤害与递归保护仍由战斗执行代码管理。
+HeroMotionPresenter 不持有 RuinsGame、敌人列表、输入或伤害接口。
+RuinsGame.Motion 是适配层，不再拥有步态内部状态。
+
+三、当前技术点
+Unity 2022.3 / C# / UGUI / ScriptableObject / SpriteRenderer。
+技能目录及位掩码、规则与显示分层、接口参数注入、血量事件。
+精英/哨兵有限状态机、对象池及租借回收、空间网格、子弹扫掠检测。
+输入缓冲、命中停顿、相机反馈、程序化特效、UI 九宫格和资源导入工具。
+自定义 Editor 规则检查与 Play Mode 回归入口：PortfolioSmokeTest.Run。
+新增 PortfolioDefinitionChecks：覆盖 18 定义、全部 512 种持有组合的默认前置条件、
+参数注入与描述同步、独立步态状态、实际攻击冷却和命中节点配置。
+
+四、诚实的架构边界
+本轮完成技能定义资产化、基础参数注入、基础攻击时间轴配置化、独立动作表现类。
+不是完整 ECS、MVC 框架或通用技能图编辑器；没有新增第三方包。
+RuinsGame 的多个 partial 文件仍属于同一类，复杂攻击执行与角色状态仍有共享字段。
+下一步若继续解耦，应以清晰的伤害请求/结果接口抽离攻击执行，再考虑全技能参数化；
+录制前不建议一次重写所有战斗系统。
+
+五、回归方式
+在隔离副本运行 Unity Editor batchmode 的 PortfolioSmokeTest.Run，无需构建 Player。
+本轮结果见 definitions-final-check.log；测试里改参数使用临时副本或假数据提供者，
+不会把实验数值保存回正式资产。默认平衡快照测试若因有意调参失败，应先核对预期再更新测试。

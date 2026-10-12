@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21040207be2563b41b414839fd60cef9, type: 3}
+  m_Name: shield_shatter
+  m_EditorClassIdentifier: 
+  id: 2
+  shield: 1
+  displayName: "\u788E\u7532\u9524\u5934"
+  icon: {fileID: 21300000, guid: 6938c8410f8765141a05c6b47282d163, type: 3}
+  description: "\u91CD\u7838\u4F7F\u5E78\u5B58\u76EE\u6807\u7834\u75324\u79D2\n\u5176\u53D7\u5230\u7684\u6325\u9524\u4F24\u5BB3\u63D0\u9AD825%\n\u7B2C\u4E09\u5173\u91CD\u7838\u8FFD\u52A0\u534A\u5F84180\u9707\u5730
+    / 24\u4F24\u5BB3"
+  requiredMask: 2
+  values: []

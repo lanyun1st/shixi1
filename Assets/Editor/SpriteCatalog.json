@@ -1,0 +1,3477 @@
+[
+  {
+    "group": "hero_movement",
+    "name": "idle_down",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      0,
+      35,
+      314,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/idle_down.png",
+    "runtime_path": "assets/split/runtime/hero_movement/idle_down.png",
+    "trimmed_size": [
+      173,
+      311
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "idle_up",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      314,
+      35,
+      627,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/idle_up.png",
+    "runtime_path": "assets/split/runtime/hero_movement/idle_up.png",
+    "trimmed_size": [
+      184,
+      307
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "idle_right_a",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      627,
+      35,
+      940,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/idle_right_a.png",
+    "runtime_path": "assets/split/runtime/hero_movement/idle_right_a.png",
+    "trimmed_size": [
+      201,
+      311
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "idle_right_b",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      940,
+      35,
+      1254,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/idle_right_b.png",
+    "runtime_path": "assets/split/runtime/hero_movement/idle_right_b.png",
+    "trimmed_size": [
+      166,
+      313
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_down_01",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      20,
+      420,
+      178,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_down_01.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_down_01.png",
+    "trimmed_size": [
+      158,
+      263
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_down_02",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      178,
+      420,
+      325,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_down_02.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_down_02.png",
+    "trimmed_size": [
+      147,
+      265
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_up_01",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      325,
+      420,
+      475,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_up_01.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_up_01.png",
+    "trimmed_size": [
+      150,
+      261
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_up_02",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      475,
+      420,
+      630,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_up_02.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_up_02.png",
+    "trimmed_size": [
+      155,
+      264
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_left_01",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      630,
+      420,
+      813,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_left_01.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_left_01.png",
+    "trimmed_size": [
+      183,
+      243
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_right_01",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      795,
+      420,
+      940,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_right_01.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_right_01.png",
+    "trimmed_size": [
+      145,
+      248
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_right_02",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      938,
+      420,
+      1100,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_right_02.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_right_02.png",
+    "trimmed_size": [
+      162,
+      253
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "run_right_03",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      1095,
+      420,
+      1254,
+      700
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/run_right_03.png",
+    "runtime_path": "assets/split/runtime/hero_movement/run_right_03.png",
+    "trimmed_size": [
+      157,
+      255
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "sword_attack_down",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      25,
+      715,
+      300,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/sword_attack_down.png",
+    "runtime_path": "assets/split/runtime/hero_movement/sword_attack_down.png",
+    "trimmed_size": [
+      259,
+      254
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "sword_attack_up",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      325,
+      715,
+      602,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/sword_attack_up.png",
+    "runtime_path": "assets/split/runtime/hero_movement/sword_attack_up.png",
+    "trimmed_size": [
+      261,
+      243
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "sword_attack_right_a",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      602,
+      715,
+      905,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/sword_attack_right_a.png",
+    "runtime_path": "assets/split/runtime/hero_movement/sword_attack_right_a.png",
+    "trimmed_size": [
+      290,
+      248
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "sword_attack_right_b",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      915,
+      715,
+      1245,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/sword_attack_right_b.png",
+    "runtime_path": "assets/split/runtime/hero_movement/sword_attack_right_b.png",
+    "trimmed_size": [
+      317,
+      245
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_movement",
+    "name": "portrait",
+    "source": "assets/source/hero-movement-sheet.png",
+    "source_box": [
+      430,
+      965,
+      820,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_movement/portrait.png",
+    "runtime_path": "assets/split/runtime/hero_movement/portrait.png",
+    "trimmed_size": [
+      253,
+      270
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "idle_down",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      30,
+      130,
+      305,
+      375
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/idle_down.png",
+    "runtime_path": "assets/split/runtime/enemy/idle_down.png",
+    "trimmed_size": [
+      265,
+      222
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "idle_up",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      335,
+      130,
+      625,
+      375
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/idle_up.png",
+    "runtime_path": "assets/split/runtime/enemy/idle_up.png",
+    "trimmed_size": [
+      268,
+      221
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "idle_left",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      660,
+      130,
+      930,
+      375
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/idle_left.png",
+    "runtime_path": "assets/split/runtime/enemy/idle_left.png",
+    "trimmed_size": [
+      244,
+      219
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "idle_right",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      955,
+      130,
+      1215,
+      375
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/idle_right.png",
+    "runtime_path": "assets/split/runtime/enemy/idle_right.png",
+    "trimmed_size": [
+      241,
+      218
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_down_01",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      30,
+      425,
+      305,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_down_01.png",
+    "runtime_path": "assets/split/runtime/enemy/move_down_01.png",
+    "trimmed_size": [
+      261,
+      223
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_down_02",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      340,
+      425,
+      620,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_down_02.png",
+    "runtime_path": "assets/split/runtime/enemy/move_down_02.png",
+    "trimmed_size": [
+      258,
+      219
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_left_01",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      660,
+      425,
+      925,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_left_01.png",
+    "runtime_path": "assets/split/runtime/enemy/move_left_01.png",
+    "trimmed_size": [
+      242,
+      207
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_left_02",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      965,
+      425,
+      1225,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_left_02.png",
+    "runtime_path": "assets/split/runtime/enemy/move_left_02.png",
+    "trimmed_size": [
+      240,
+      212
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_right_01",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      25,
+      710,
+      305,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_right_01.png",
+    "runtime_path": "assets/split/runtime/enemy/move_right_01.png",
+    "trimmed_size": [
+      240,
+      211
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "move_right_02",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      325,
+      710,
+      630,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/move_right_02.png",
+    "runtime_path": "assets/split/runtime/enemy/move_right_02.png",
+    "trimmed_size": [
+      240,
+      216
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "hurt",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      645,
+      710,
+      945,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/hurt.png",
+    "runtime_path": "assets/split/runtime/enemy/hurt.png",
+    "trimmed_size": [
+      266,
+      203
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "enraged",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      950,
+      710,
+      1235,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/enraged.png",
+    "runtime_path": "assets/split/runtime/enemy/enraged.png",
+    "trimmed_size": [
+      261,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "dash_start",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      15,
+      995,
+      325,
+      1225
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/dash_start.png",
+    "runtime_path": "assets/split/runtime/enemy/dash_start.png",
+    "trimmed_size": [
+      293,
+      189
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "dash_mid",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      315,
+      995,
+      670,
+      1225
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/dash_mid.png",
+    "runtime_path": "assets/split/runtime/enemy/dash_mid.png",
+    "trimmed_size": [
+      333,
+      183
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "dash_end",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      640,
+      995,
+      960,
+      1225
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/dash_end.png",
+    "runtime_path": "assets/split/runtime/enemy/dash_end.png",
+    "trimmed_size": [
+      307,
+      153
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "enemy",
+    "name": "defeated",
+    "source": "assets/source/enemy-sheet.png",
+    "source_box": [
+      950,
+      995,
+      1254,
+      1225
+    ],
+    "trimmed_path": "assets/split/trimmed/enemy/defeated.png",
+    "runtime_path": "assets/split/runtime/enemy/defeated.png",
+    "trimmed_size": [
+      274,
+      209
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c1",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      28,
+      48,
+      255,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c1.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      227,
+      229
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c2",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      262,
+      48,
+      488,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c2.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      232
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c3",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      495,
+      48,
+      721,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c3.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      229
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c4",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      729,
+      48,
+      955,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c4.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      230
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c5",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      962,
+      48,
+      1187,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c5.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      225,
+      232
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r1_c6",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      1195,
+      48,
+      1425,
+      280
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r1_c6.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      230,
+      232
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c1",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      28,
+      295,
+      255,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c1.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      227,
+      237
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c2",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      262,
+      295,
+      488,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c2.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      240
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c3",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      495,
+      295,
+      721,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c3.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      240
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c4",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      729,
+      295,
+      955,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c4.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      237
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c5",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      962,
+      295,
+      1187,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c5.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      225,
+      238
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r2_c6",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      1195,
+      295,
+      1425,
+      535
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r2_c6.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      230,
+      238
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c1",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      28,
+      542,
+      255,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c1.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      223
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c2",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      262,
+      542,
+      488,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c2.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      224,
+      226
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c3",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      495,
+      542,
+      721,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c3.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      226
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c4",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      729,
+      542,
+      955,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c4.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      226
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c5",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      962,
+      542,
+      1187,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c5.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      225,
+      226
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r3_c6",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      1195,
+      542,
+      1425,
+      770
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r3_c6.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      230,
+      225
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c1",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      28,
+      780,
+      255,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c1.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      227,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c2",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      262,
+      780,
+      488,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c2.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c3",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      495,
+      780,
+      721,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c3.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c4",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      729,
+      780,
+      955,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c4.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      226,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c5",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      962,
+      780,
+      1187,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c5.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      225,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "floor",
+    "name": "floor_r4_c6",
+    "source": "assets/source/floor-sheet.png",
+    "source_box": [
+      1195,
+      780,
+      1425,
+      1015
+    ],
+    "trimmed_path": "assets/split/trimmed/floor/floor_r4_c6.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      230,
+      235
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "wall_straight",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      25,
+      45,
+      615,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/wall_straight.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      573,
+      241
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "wall_short",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      620,
+      45,
+      805,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/wall_short.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      174,
+      310
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "wall_inner_corner",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      805,
+      45,
+      1145,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/wall_inner_corner.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      323,
+      319
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "wall_outer_corner",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      1140,
+      45,
+      1435,
+      405
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/wall_outer_corner.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      272,
+      313
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "ruin_short",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      20,
+      405,
+      400,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/ruin_short.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      363,
+      223
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "ruin_long",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      395,
+      405,
+      1000,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/ruin_long.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      582,
+      244
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "wall_overgrown",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      995,
+      405,
+      1435,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/wall_overgrown.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      424,
+      242
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "arch_wall",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      20,
+      675,
+      425,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/arch_wall.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      395,
+      320
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "pillar_wall",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      420,
+      675,
+      935,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/pillar_wall.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      501,
+      335
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "pillar_thin",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      940,
+      675,
+      1085,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/pillar_thin.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      134,
+      269
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "pillar_medium",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      1090,
+      675,
+      1260,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/pillar_medium.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      150,
+      271
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "walls",
+    "name": "pillar_broken",
+    "source": "assets/source/wall-sheet.png",
+    "source_box": [
+      1270,
+      675,
+      1448,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/walls/pillar_broken.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      147,
+      281
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "torch",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      20,
+      45,
+      255,
+      635
+    ],
+    "trimmed_path": "assets/split/trimmed/props/torch.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      228,
+      546
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "column",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      255,
+      45,
+      555,
+      635
+    ],
+    "trimmed_path": "assets/split/trimmed/props/column.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      277,
+      574
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "broken_column",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      545,
+      45,
+      855,
+      635
+    ],
+    "trimmed_path": "assets/split/trimmed/props/broken_column.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      294,
+      500
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "barrel",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      850,
+      45,
+      1125,
+      635
+    ],
+    "trimmed_path": "assets/split/trimmed/props/barrel.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      254,
+      330
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "crate",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      1120,
+      45,
+      1448,
+      635
+    ],
+    "trimmed_path": "assets/split/trimmed/props/crate.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      297,
+      324
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "pot",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      20,
+      625,
+      260,
+      1060
+    ],
+    "trimmed_path": "assets/split/trimmed/props/pot.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      227,
+      286
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "rubble",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      245,
+      625,
+      645,
+      1060
+    ],
+    "trimmed_path": "assets/split/trimmed/props/rubble.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      398,
+      300
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "crystal_pedestal",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      625,
+      625,
+      975,
+      1060
+    ],
+    "trimmed_path": "assets/split/trimmed/props/crystal_pedestal.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      347,
+      415
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "banner",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      960,
+      625,
+      1225,
+      1060
+    ],
+    "trimmed_path": "assets/split/trimmed/props/banner.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      244,
+      432
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "props",
+    "name": "stone_urn",
+    "source": "assets/source/prop-sheet.png",
+    "source_box": [
+      1225,
+      625,
+      1448,
+      1060
+    ],
+    "trimmed_path": "assets/split/trimmed/props/stone_urn.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      196,
+      356
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "portals",
+    "name": "portal_frame",
+    "source": "assets/source/portal-sheet.png",
+    "source_box": [
+      0,
+      50,
+      490,
+      610
+    ],
+    "trimmed_path": "assets/split/trimmed/portals/portal_frame.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      480,
+      517
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "portals",
+    "name": "portal_active",
+    "source": "assets/source/portal-sheet.png",
+    "source_box": [
+      480,
+      50,
+      965,
+      610
+    ],
+    "trimmed_path": "assets/split/trimmed/portals/portal_active.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      485,
+      539
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "portals",
+    "name": "portal_sealed",
+    "source": "assets/source/portal-sheet.png",
+    "source_box": [
+      950,
+      50,
+      1448,
+      610
+    ],
+    "trimmed_path": "assets/split/trimmed/portals/portal_sealed.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      493,
+      519
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "portals",
+    "name": "portal_ruined",
+    "source": "assets/source/portal-sheet.png",
+    "source_box": [
+      20,
+      600,
+      690,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/portals/portal_ruined.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      637,
+      431
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "portals",
+    "name": "crystal_beacon",
+    "source": "assets/source/portal-sheet.png",
+    "source_box": [
+      690,
+      600,
+      1000,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/portals/crystal_beacon.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      283,
+      404
+    ],
+    "pivot": [
+      0.5,
+      0.94
+    ],
+    "unity_pivot": [
+      0.5,
+      0.06000000000000005
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "projectile_charge",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      0,
+      0,
+      444,
+      444
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/projectile_charge.png",
+    "runtime_path": "assets/split/runtime/vfx/projectile_charge.png",
+    "trimmed_size": [
+      263,
+      221
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "projectile_flight_01",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/projectile_flight_01.png",
+    "runtime_path": "assets/split/runtime/vfx/projectile_flight_01.png",
+    "trimmed_size": [
+      361,
+      185
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "projectile_flight_02",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      887,
+      0,
+      1330,
+      444
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/projectile_flight_02.png",
+    "runtime_path": "assets/split/runtime/vfx/projectile_flight_02.png",
+    "trimmed_size": [
+      424,
+      188
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "projectile_flight_03",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/projectile_flight_03.png",
+    "runtime_path": "assets/split/runtime/vfx/projectile_flight_03.png",
+    "trimmed_size": [
+      350,
+      161
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "impact_01",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/impact_01.png",
+    "runtime_path": "assets/split/runtime/vfx/impact_01.png",
+    "trimmed_size": [
+      222,
+      205
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "impact_02",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/impact_02.png",
+    "runtime_path": "assets/split/runtime/vfx/impact_02.png",
+    "trimmed_size": [
+      381,
+      371
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "impact_03",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/impact_03.png",
+    "runtime_path": "assets/split/runtime/vfx/impact_03.png",
+    "trimmed_size": [
+      353,
+      309
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "vfx",
+    "name": "impact_04",
+    "source": "assets/source/projectile-vfx-sheet.png",
+    "source_box": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "trimmed_path": "assets/split/trimmed/vfx/impact_04.png",
+    "runtime_path": "assets/split/runtime/vfx/impact_04.png",
+    "trimmed_size": [
+      263,
+      265
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_down_prepare",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      25,
+      40,
+      320,
+      360
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_down_prepare.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_down_prepare.png",
+    "trimmed_size": [
+      284,
+      315
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_down_aim",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      340,
+      40,
+      570,
+      360
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_down_aim.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_down_aim.png",
+    "trimmed_size": [
+      209,
+      265
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_down_fire",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      645,
+      40,
+      880,
+      360
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_down_fire.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_down_fire.png",
+    "trimmed_size": [
+      209,
+      266
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_down_recover",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      945,
+      40,
+      1254,
+      360
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_down_recover.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_down_recover.png",
+    "trimmed_size": [
+      295,
+      268
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_up_prepare",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      45,
+      360,
+      295,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_up_prepare.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_up_prepare.png",
+    "trimmed_size": [
+      229,
+      307
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_up_aim",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      355,
+      360,
+      580,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_up_aim.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_up_aim.png",
+    "trimmed_size": [
+      195,
+      304
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_up_fire",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      655,
+      360,
+      885,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_up_fire.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_up_fire.png",
+    "trimmed_size": [
+      201,
+      317
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_up_recover",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      965,
+      360,
+      1254,
+      680
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_up_recover.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_up_recover.png",
+    "trimmed_size": [
+      276,
+      259
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_right_prepare",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      5,
+      675,
+      285,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_right_prepare.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_right_prepare.png",
+    "trimmed_size": [
+      263,
+      269
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_right_aim",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      290,
+      675,
+      642,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_right_aim.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_right_aim.png",
+    "trimmed_size": [
+      346,
+      244
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_right_fire",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      625,
+      675,
+      970,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_right_fire.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_right_fire.png",
+    "trimmed_size": [
+      332,
+      242
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_right_recover",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      960,
+      675,
+      1254,
+      970
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_right_recover.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_right_recover.png",
+    "trimmed_size": [
+      282,
+      289
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_left_prepare",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      35,
+      960,
+      310,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_left_prepare.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_left_prepare.png",
+    "trimmed_size": [
+      255,
+      267
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_left_aim",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      285,
+      960,
+      635,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_left_aim.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_left_aim.png",
+    "trimmed_size": [
+      337,
+      247
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_left_fire",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      610,
+      960,
+      960,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_left_fire.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_left_fire.png",
+    "trimmed_size": [
+      336,
+      250
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_attack",
+    "name": "attack_left_recover",
+    "source": "assets/source/hero-attack-sheet.png",
+    "source_box": [
+      925,
+      960,
+      1225,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_attack/attack_left_recover.png",
+    "runtime_path": "assets/split/runtime/hero_attack/attack_left_recover.png",
+    "trimmed_size": [
+      284,
+      267
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "down_hurt",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      35,
+      30,
+      285,
+      330
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/down_hurt.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/down_hurt.png",
+    "trimmed_size": [
+      235,
+      286
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "down_knockback",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      355,
+      30,
+      620,
+      330
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/down_knockback.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/down_knockback.png",
+    "trimmed_size": [
+      244,
+      292
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "down_fall",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      705,
+      30,
+      980,
+      330
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/down_fall.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/down_fall.png",
+    "trimmed_size": [
+      248,
+      261
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "down_defeated",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      1020,
+      30,
+      1345,
+      330
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/down_defeated.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/down_defeated.png",
+    "trimmed_size": [
+      290,
+      176
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "up_hurt",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      30,
+      325,
+      295,
+      616
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/up_hurt.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/up_hurt.png",
+    "trimmed_size": [
+      250,
+      286
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "up_knockback",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      355,
+      325,
+      650,
+      616
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/up_knockback.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/up_knockback.png",
+    "trimmed_size": [
+      271,
+      286
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "up_fall",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      700,
+      325,
+      985,
+      616
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/up_fall.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/up_fall.png",
+    "trimmed_size": [
+      266,
+      249
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "up_defeated",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      1030,
+      325,
+      1325,
+      616
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/up_defeated.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/up_defeated.png",
+    "trimmed_size": [
+      258,
+      210
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "right_hurt",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      25,
+      616,
+      285,
+      890
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/right_hurt.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/right_hurt.png",
+    "trimmed_size": [
+      239,
+      274
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "right_knockback",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      350,
+      616,
+      635,
+      890
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/right_knockback.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/right_knockback.png",
+    "trimmed_size": [
+      265,
+      274
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "right_fall",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      690,
+      616,
+      990,
+      890
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/right_fall.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/right_fall.png",
+    "trimmed_size": [
+      276,
+      236
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "right_defeated",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      1015,
+      616,
+      1350,
+      890
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/right_defeated.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/right_defeated.png",
+    "trimmed_size": [
+      311,
+      173
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "left_hurt",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      35,
+      890,
+      325,
+      1161
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/left_hurt.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/left_hurt.png",
+    "trimmed_size": [
+      268,
+      271
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "left_knockback",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      380,
+      890,
+      670,
+      1161
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/left_knockback.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/left_knockback.png",
+    "trimmed_size": [
+      268,
+      271
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "left_fall",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      675,
+      890,
+      980,
+      1161
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/left_fall.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/left_fall.png",
+    "trimmed_size": [
+      285,
+      236
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "hero_hurt",
+    "name": "left_defeated",
+    "source": "assets/source/hero-hurt-sheet.png",
+    "source_box": [
+      1010,
+      890,
+      1355,
+      1161
+    ],
+    "trimmed_path": "assets/split/trimmed/hero_hurt/left_defeated.png",
+    "runtime_path": "assets/split/runtime/hero_hurt/left_defeated.png",
+    "trimmed_size": [
+      321,
+      187
+    ],
+    "pivot": [
+      0.5,
+      0.8333333333333334
+    ],
+    "unity_pivot": [
+      0.5,
+      0.16666666666666663
+    ]
+  },
+  {
+    "group": "weapon",
+    "name": "pulse_staff",
+    "source": "assets/source/pulse-staff.png",
+    "source_box": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "trimmed_path": "assets/split/trimmed/weapon/pulse_staff.png",
+    "runtime_path": "assets/split/runtime/weapon/pulse_staff.png",
+    "trimmed_size": [
+      1051,
+      418
+    ],
+    "pivot": [
+      0.14,
+      0.66
+    ],
+    "unity_pivot": [
+      0.14,
+      0.33999999999999997
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "hud_health",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      10,
+      10,
+      730,
+      295
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/hud_health.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      720,
+      285
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "skill_burn",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      725,
+      10,
+      905,
+      295
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/skill_burn.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      180,
+      196
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "skill_frost",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      900,
+      10,
+      1078,
+      295
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/skill_frost.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      178,
+      196
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "skill_pierce",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      1070,
+      10,
+      1248,
+      295
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/skill_pierce.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      178,
+      196
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "skill_bounce",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      1240,
+      10,
+      1448,
+      295
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/skill_bounce.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      190,
+      196
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "minimap",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      10,
+      285,
+      555,
+      625
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/minimap.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      543,
+      340
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "pause_button",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      560,
+      285,
+      755,
+      515
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/pause_button.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      191,
+      189
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "settings_button",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      750,
+      285,
+      945,
+      515
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/settings_button.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      195,
+      189
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "button_gold",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      940,
+      300,
+      1448,
+      515
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/button_gold.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      503,
+      174
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "tooltip_panel",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      555,
+      505,
+      960,
+      690
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/tooltip_panel.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      392,
+      185
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "button_dark",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      940,
+      505,
+      1448,
+      690
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/button_dark.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      491,
+      145
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "inventory_panel",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      10,
+      615,
+      625,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/inventory_panel.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      608,
+      431
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "slot_silver",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      680,
+      690,
+      1020,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/slot_silver.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      317,
+      325
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "group": "ui",
+    "name": "slot_gold",
+    "source": "assets/ui-atlas.png",
+    "source_box": [
+      1010,
+      680,
+      1448,
+      1086
+    ],
+    "trimmed_path": "assets/split/trimmed/ui/slot_gold.png",
+    "runtime_path": null,
+    "trimmed_size": [
+      348,
+      344
+    ],
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "unity_pivot": [
+      0.5,
+      0.5
+    ]
+  }
+]

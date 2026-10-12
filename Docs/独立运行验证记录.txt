@@ -1,0 +1,33 @@
+独立运行追加验证 2026-10-10
+
+本记录补充两份 Word 文档中的迁移验证范围：文档生成后，本次已执行完整 Windows x64 Player 构建。
+
+交付入口
+游戏包：RuinsPortfolio-Windows-Ready.zip，完整解压后双击 RuinsPortfolio.exe，无需安装 Unity。
+源工程包：UnityPortfolio-Source-Ready.zip，用 Unity 2022.3.62f2c1 打开，场景 Assets/Scenes/Ruins.unity。
+不要只复制 exe，必须保留同目录 Data、MonoBleedingEdge、UnityPlayer.dll 等全部依赖。
+
+已验证
+1. 从源工程压缩包解压的副本构建 Windows 64 位非 Development 游戏，构建成功，退出码 0。
+2. 在副本运行 Gameplay 回归，包含三关流程、技能、UI、输入、碰撞和池回归，通过。
+3. 最终游戏压缩包重新解压，从解压后的 exe 启动两次，分别验证远程和近战角色。
+4. 两次均验证主菜单、角色选择、起始技能选择、进入第一关、怪物生成、模拟时钟推进、暂停和恢复，退出码均为 0。
+5. 两次独立运行日志均含 PORTFOLIO_PLAYER_SMOKE_OK，检查输出的开始界面和战斗画面，中文、角色和 UI 正常显示。
+
+验证边界
+独立 Player 启动检查不是人工完整通关；三关回归在 Unity Editor 副本完成。
+当前实际验证机器为 Windows，Direct3D 11，NVIDIA GeForce GTX 1050 Ti。
+未在另一台物理设备、macOS、Linux、移动端或 WebGL 实测，未给出最低硬件和目标帧率保证。
+Windows x64 目标电脑仍需具备兼容图形驱动与运行环境。如失败，请保留 Player.log 与设备信息排查。
+这不是签名安装程序；遇到组织安全策略时，不应全局关闭系统防护。
+
+新增代码
+Assets/Editor/PortfolioPlayerBuild.cs：批处理 Windows 构建入口，只接受新输出目录。
+Assets/Scripts/PlayerLaunchCheck.cs：仅携带 -portfolio-smoke 参数时创建检查组件，正常启动不创建检查对象。
+构建命令示例（替换编辑器、工程、输出和日志路径）
+Unity.exe -batchmode -projectPath "D:\UnityPortfolio" -executeMethod PortfolioPlayerBuild.Windows -portfolio-output "D:\NewPlayer" -logFile "D:\player-build.log"
+Player 检查示例
+RuinsPortfolio.exe -portfolio-smoke -portfolio-captures "D:\PlayerCheck" -logFile "D:\PlayerCheck\ranged.log"
+近战检查追加 -portfolio-shield。检查成功自动退出；截图使用离屏渲染，不能作为性能基准。
+
+本机证据目录位于 demo/PackageVerification-20261010 与 demo/ReadyPackageCheck；交付源包不夹带缓存。

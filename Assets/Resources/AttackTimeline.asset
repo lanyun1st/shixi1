@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166a521fb7aebf242b37d42a7c0fea9c, type: 3}
+  m_Name: AttackTimeline
+  m_EditorClassIdentifier: 
+  rangedCooldown: 0.22
+  rangedWindow: 0.24
+  aimEnd: 0.035
+  fireEnd: 0.085
+  recoverEnd: 0.18
+  meleeDuration: 0.48
+  fastMeleeDuration: 0.38
+  meleeCooldown: 0.5
+  fastMeleeCooldown: 0.4
+  hitPhase: 0.375
+  recoveryPhase: 0.5625
+  stepDistance: 34
+  bobHeight: 2.8
+  blendSpeed: 10
+  recoilDistance: 2.5
+  windupPull: 2
+  followThrough: 6
