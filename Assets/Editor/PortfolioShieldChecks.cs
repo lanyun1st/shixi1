@@ -73,6 +73,9 @@ public static class PortfolioShieldChecks
         Check(((IList)Get(game,"shots")).Count==0,"melee does not spawn player bullets");
         Reset(game);foe=Call(game,"SpawnSentry",new Vector2(800,600),0f);
         Call(game,"BeginMelee",new Vector2(900,500));Call(game,"TickShield",.19f,new Vector2(900,500));
+        Equal((float)Get(foe,"hp"),24,"arc includes overlapping body even when feet are outside");
+        Reset(game);foe=Call(game,"SpawnSentry",new Vector2(800,650),0f);
+        Call(game,"BeginMelee",new Vector2(900,500));Call(game,"TickShield",.19f,new Vector2(900,500));
         Equal((float)Get(foe,"hp"),60,"arc excludes flank");
         Reset(game);((SkillLoadout)Get(game,"loadout")).Add(7);foe=Call(game,"SpawnSentry",new Vector2(930,500),0f);
         Call(game,"BeginMelee",new Vector2(950,500));Call(game,"TickShield",.19f,new Vector2(950,500));

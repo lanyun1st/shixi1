@@ -149,7 +149,7 @@ public sealed partial class RuinsGame : MonoBehaviour
             if(e.hp>0)ApplyElements(e);
             if (loadout.Has(3))
                 foreach (var other in enemies)
-                    if (other != e && other.hp > 0 && other.spawnDelay<=0 && Vector2.Distance(other.p, e.p) < 270 && ClearSkillPath(e.p,other.p))
+                    if (other != e && other.hp > 0 && other.spawnDelay<=0 && BodyInRange(other,e.p,270) && ClearSkillPath(e.p,other.p))
                     { var from=e.p;var to=other.p;Damage(other,16,false);ReactionPresented?.Invoke(new Portfolio.Presentation.ReactionCue(Portfolio.Presentation.ReactionKind.Chain,from,to));if(other.hp>0)ApplyElements(other);break; }
         }
     }

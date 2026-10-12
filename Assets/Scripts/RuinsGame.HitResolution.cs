@@ -3,6 +3,9 @@ using Portfolio.Domain;
 
 public sealed partial class RuinsGame
 {
+    static EnemyHurtbox Body(Enemy e)=>EnemyHurtbox.Create(e.p,e.elite!=null,e.sentry!=null,e.fast);
+    static bool BodyInRange(Enemy e,Vector2 origin,float range)=>Body(e).Overlaps(origin,range);
+    bool BodyInMelee(Enemy e,float range,float dot)=>Body(e).OverlapsSector(player,meleeDirection,range,dot);
     readonly System.Collections.Generic.List<Obstacle> shotObstacleCandidates=new System.Collections.Generic.List<Obstacle>(48);
     static float CircleEntry(Vector2 from,Vector2 to,Vector2 center,float radius)
     {
@@ -35,7 +38,7 @@ public sealed partial class RuinsGame
             foreach(var e in enemies)
             {
                 if(e.hp<=0 || e.spawnDelay>0 || shot.hit.Contains(e))continue;
-                float t=CircleEntry(from,to,e.p,e.elite==null?24:32);
+                float t=Body(e).Entry(from,to,5);
                 if(t<nearestT){nearestT=t;nearest=e;}
             }
             if(nearest==null)break;

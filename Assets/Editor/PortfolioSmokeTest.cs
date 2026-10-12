@@ -56,6 +56,7 @@ public static class PortfolioSmokeTest
             PortfolioBossMotionChecks.Run(game);
             PortfolioDefinitionChecks.Run(game);
             PortfolioReticleChecks.Run(game);
+            PortfolioHurtboxChecks.Run(game);
             End(0,"PORTFOLIO_SMOKE_OK: sprites, UI, three-room progression, skills, input, collision, pool regression.");
         }
         catch(Exception e){End(1,e.ToString());}

@@ -74,7 +74,7 @@ public sealed partial class RuinsGame : ICharacterUiCommands
         bool connected=false;
         foreach(var e in enemies)
         {
-            if(e.hp<=0 || e.spawnDelay>0 || !InMeleeArc(e.p,reach,dot) || !ClearSkillPath(player,e.p))continue;
+            if(e.hp<=0 || e.spawnDelay>0 || !BodyInMelee(e,reach,dot) || !ClearSkillPath(player,e.p))continue;
             float extra=(e.breach>0 && loadout.Has(4)?1.5f:1)*(e.armor>0?1.25f:1);
             if(extra>1)SkillCue(ReactionKind.ArmorBreak,e.p,45,meleeDirection);
             e.breach=0;Damage(e,damage*extra,false);connected=true;
@@ -99,7 +99,7 @@ public sealed partial class RuinsGame : ICharacterUiCommands
         if(heavySwing && loadout.HasRoute(SynergyId.HeavySlam) && room==3)
         {
             SkillCue(ReactionKind.Slam,player,180);
-            foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && Vector2.Distance(player,e.p)<180 && ClearSkillPath(player,e.p))
+            foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && BodyInRange(e,player,180) && ClearSkillPath(player,e.p))
             {Damage(e,24,false);if(e.elite==null)e.p=MoveSolid(e.p,(e.p-player).normalized*40,ArenaLayout.SlimeRadius);}
         }
         SkillCue(heavySwing?ReactionKind.HeavySlash:ReactionKind.Slash,player,reach,meleeDirection);
@@ -107,7 +107,7 @@ public sealed partial class RuinsGame : ICharacterUiCommands
     void ShieldCone(float reach,float damage,float push)
     {
         SkillCue(ReactionKind.ShieldCone,player,reach,meleeDirection);
-        foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && InMeleeArc(e.p,reach,.4f) && ClearSkillPath(player,e.p))
+        foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && BodyInMelee(e,reach,.4f) && ClearSkillPath(player,e.p))
         {Damage(e,damage,false);if(e.elite==null)e.p=MoveSolid(e.p,meleeDirection*push,ArenaLayout.SlimeRadius);}
     }
     void BeginShieldDash(Vector2 direction)
@@ -121,7 +121,7 @@ public sealed partial class RuinsGame : ICharacterUiCommands
         foreach(var e in enemies)
         {
             if(e.hp<=0 || e.spawnDelay>0 || shieldDashHits.Contains(e))continue;
-            if(float.IsPositiveInfinity(CircleEntry(from,to,e.p,42)) || !ClearSkillPath(to,e.p))continue;
+            if(float.IsPositiveInfinity(Body(e).Entry(from,to,ArenaLayout.PlayerRadius)) || !ClearSkillPath(to,e.p))continue;
             shieldDashHits.Add(e);Damage(e,22,false);SkillCue(ReactionKind.DashImpact,e.p,50,dashDirection);
             if(loadout.Has(5))e.breach=2;
             if(e.elite==null && e.hp>0)

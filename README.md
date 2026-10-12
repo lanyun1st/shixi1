@@ -5,9 +5,11 @@
 ## 演示与下载
 
 - [演示视频 MP4](https://github.com/lanyun1st/shixi1/releases/download/v1.0.0-demo/RuinsPortfolio-Demo.mp4)
-- [Windows 64 位可运行版](https://github.com/lanyun1st/shixi1/releases/download/v1.0.0-demo/RuinsPortfolio-Windows-Ready.zip)
-- [完整源码压缩包](https://github.com/lanyun1st/shixi1/releases/download/v1.0.0-demo/UnityPortfolio-Source-Ready.zip)
-- [版本说明和全部附件](https://github.com/lanyun1st/shixi1/releases/tag/v1.0.0-demo)
+- [Windows 64 位可运行版 v1.0.1](https://github.com/lanyun1st/shixi1/releases/download/v1.0.1-hurtbox/RuinsPortfolio-Windows-v1.0.1.zip)
+- [完整源码压缩包 v1.0.1](https://github.com/lanyun1st/shixi1/releases/download/v1.0.1-hurtbox/UnityPortfolio-Source-v1.0.1.zip)
+- [版本说明和全部附件](https://github.com/lanyun1st/shixi1/releases/tag/v1.0.1-hurtbox)
+
+v1.0.1 修复怪物受击区域：身体受击与脚底移动碰撞分离，统一子弹、近战与范围伤害判定，补充 36 项受击回归检查。详见 [修复说明](Docs/受击判定修复说明.txt)。上方视频保留的是 v1.0.0 修复前演示。
 
 视频作为 Release 附件提供，可能需要下载后播放。游戏无需安装 Unity：完整解压后双击 `RuinsPortfolio.exe`，保留同目录全部依赖，不要只复制 EXE。
 

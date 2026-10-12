@@ -67,7 +67,7 @@ public sealed partial class RuinsGame
             patch.view.color=new Color(1,.4f,.12f,Mathf.Min(.55f,patch.life*.5f));
             if(patch.life<=0){firePatches.RemoveAt(i);firePool.Return(patch);continue;}
             if(patch.tick>0)continue;patch.tick=.4f;
-            foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && Vector2.Distance(e.p,patch.p)<70 && ClearSkillPath(patch.p,e.p))Damage(e,5,false);
+            foreach(var e in enemies)if(e.hp>0 && e.spawnDelay<=0 && BodyInRange(e,patch.p,70) && ClearSkillPath(patch.p,e.p))Damage(e,5,false);
         }
     }
     void RenderCharge()

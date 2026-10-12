@@ -1,0 +1,16 @@
+受击判定修复 v1.0.1  2026-10-12
+
+修复内容
+怪物移动和撞墙仍使用脚底碰撞。伤害判定改用独立、稳定的身体胶囊，不再以脚底的小圆代表整只怪物。
+普通及快速软泥怪、精英石像和远程石像拥有分别校准的身体尺寸。
+子弹按飞行顺序扫掠身体，近战检查身体与挥砍扇形相交，范围技能检查身体与效果圆相交，盾冲也使用身体扫掠。
+不使用透明图片矩形作为受击区域，也不逐帧跟随动画变形。墙体阻挡、出生预警免疫和重复命中限制仍保留。
+
+学习入口
+Assets/Scripts/Domain/EnemyHurtbox.cs：身体配置、胶囊扫掠、圆形及扇形相交。
+Assets/Scripts/RuinsGame.HitResolution.cs：统一 Body 查询和子弹接入。
+Assets/Scripts/RuinsGame.Shield.cs：近战、冲刺与重击范围。
+Assets/Scripts/RuinsGame.Skills.cs 和 RuinsGame.CombatFeel.cs：组合技能及燃烧区域接入。
+Assets/Editor/PortfolioHurtboxChecks.cs：新增专项回归。
+
+此前视频展示的是修复前的 Demo。原有 Word 学习文档中描述旧脚底圆判定的内容，以本修复说明和当前代码为准。

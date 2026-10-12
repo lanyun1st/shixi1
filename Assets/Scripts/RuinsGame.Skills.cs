@@ -41,7 +41,7 @@ public sealed partial class RuinsGame
         echoDelay-=dt;if(echoDelay>0)return;
         var center=room==3?player:echoPosition;
         SkillCue(ReactionKind.Echo,center,150);
-        foreach(var target in enemies)if(target.hp>0 && target.spawnDelay<=0 && Vector2.Distance(target.p,center)<=150 && ClearSkillPath(center,target.p))Damage(target,room==3?36:24,true);
+        foreach(var target in enemies)if(target.hp>0 && target.spawnDelay<=0 && BodyInRange(target,center,150) && ClearSkillPath(center,target.p))Damage(target,room==3?36:24,true);
     }
     void TriggerRoutes(Enemy source,bool burning,bool chilled)
     {
@@ -54,7 +54,7 @@ public sealed partial class RuinsGame
         if(shatter)SkillCue(ReactionKind.IceShatter,source.p,radius);
         foreach(var target in enemies)
         {
-            if(target==source || target.hp<=0 || target.spawnDelay>0 || Vector2.Distance(source.p,target.p)>radius || !ClearSkillPath(source.p,target.p))continue;
+            if(target==source || target.hp<=0 || target.spawnDelay>0 || !BodyInRange(target,source.p,radius) || !ClearSkillPath(source.p,target.p))continue;
             Damage(target,damage,false);
             if(shatter && target.elite==null && target.hp>0)target.frozen=.6f;
         }
@@ -73,13 +73,13 @@ public sealed partial class RuinsGame
         {
             e.reaction=SynergyRules.TargetReactionCooldown;
             SkillCue(ReactionKind.Thermal,e.p,100);
-            foreach(var target in enemies)if(target.hp>0 && Vector2.Distance(target.p,e.p)<=100 && ClearSkillPath(e.p,target.p))Damage(target,20,false);
+            foreach(var target in enemies)if(target.hp>0 && BodyInRange(target,e.p,100) && ClearSkillPath(e.p,target.p))Damage(target,20,false);
         }
     }
     void DashNova()
     {
         SkillCue(ReactionKind.Nova,player,125);
-        foreach(var target in enemies)if(target.hp>0 && Vector2.Distance(target.p,player)<=125 && ClearSkillPath(player,target.p))Damage(target,24,true);
+        foreach(var target in enemies)if(target.hp>0 && BodyInRange(target,player,125) && ClearSkillPath(player,target.p))Damage(target,24,true);
     }
     void DrawRing(Vector2 at,float radius,Color color)
     {
